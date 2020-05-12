@@ -1,0 +1,54 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(../../fonts/LemonMilk.otf) format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(../../fonts/LemonMilkBold.otf);
+    font-weight: bold;
+    font-display: swap;
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+    color: #919191;
+    text-decoration: none;
+}
+
+.jumbotron
+{
+    background: #cccccc;
+}
+
+/*NAVIGATION BAR*/
+
+.navbar {
+    background-color: #919191 !important;
+    text-transform: uppercase;
+    font-family: LemonMilk, sans-serif;
+    font-weight: normal;
+
+    //NAVIGATION BAR SHADOW
+
+    /*
+    -webkit-box-shadow: 0px 5px 26px 3px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 5px 26px 3px rgba(0,0,0,0.65);
+    box-shadow: 0px 5px 26px 3px rgba(0,0,0,0.65);
+    border: 0;
+*/
+}
+
+.navbar-brand {
+    height: 40px;
+    width: 40px;
+    background: url('../../images/Logo.png');
+    background-size: contain;
+}
